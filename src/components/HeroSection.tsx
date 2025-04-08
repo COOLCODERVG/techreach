@@ -31,7 +31,7 @@ const HeroSection = () => {
             <Button 
               asChild 
               size="lg" 
-              className="bg-yellow-600 hover:bg-yellow-700 text-white text-lg py-6 px-8 rounded-md accessible-focus large-touch-target"
+              className="bg-tech-blue hover:bg-tech-darkblue text-white text-lg py-6 px-8 rounded-md accessible-focus large-touch-target"
               aria-label="Explore our technology lessons"
             >
               <Link to="/lessons">

@@ -12,7 +12,7 @@ const LessonsPage = () => {
             <div className="inline-block bg-yellow-100 text-yellow-800 px-3 py-1 rounded-full text-sm font-medium mb-4">
               Technology Education
             </div>
-            <h1 className="text-3xl md:text-4xl lg:text-5xl font-alfa text-foreground mb-8">
+            <h1 className="text-3xl md:text-4xl lg:text-5xl font-alfa text-tech-blue mb-8">
               Our Technology Lessons
             </h1>
             <p className="text-xl text-muted-foreground mb-10 leading-relaxed">

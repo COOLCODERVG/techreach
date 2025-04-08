@@ -9,10 +9,10 @@ interface FeatureCardProps {
 
 const FeatureCard = ({ icon, title, description }: FeatureCardProps) => (
   <div className="bg-card shadow-md p-8 rounded-lg border border-border hover:border-yellow-300 transition-colors">
-    <div className="w-16 h-16 bg-yellow-100 rounded-full flex items-center justify-center mb-6 text-yellow-600">
+    <div className="w-16 h-16 bg-yellow-100 rounded-full flex items-center justify-center mb-6 text-tech-blue">
       {icon}
     </div>
-    <h3 className="text-xl font-medium text-foreground mb-4">{title}</h3>
+    <h3 className="text-xl font-medium text-tech-blue mb-4">{title}</h3>
     <p className="text-muted-foreground text-lg leading-relaxed">{description}</p>
   </div>
 );
@@ -25,7 +25,7 @@ const MissionSection = () => {
           <div className="inline-block bg-yellow-100 text-yellow-800 px-3 py-1 rounded-full text-sm font-medium mb-4">
             Our Purpose
           </div>
-          <h2 className="text-3xl md:text-4xl font-alfa text-foreground mb-6">Our Mission</h2>
+          <h2 className="text-3xl md:text-4xl font-alfa text-tech-blue mb-6">Our Mission</h2>
           <p className="text-xl text-muted-foreground leading-relaxed">
             Tech Reach is a youth-led initiative committed to bridging the digital divide for seniors. We provide interactive virtual lessons that teach essential technology skills, helping them navigate devices, stay connected, and confidently engage in the digital world.
           </p>
