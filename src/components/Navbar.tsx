@@ -16,12 +16,9 @@ const Navbar = () => {
       <div className="container mx-auto px-4 flex h-16 items-center justify-between">
         <div className="flex items-center gap-2">
           <div className="mr-4 flex">
-            <Link to="/" className="flex items-center space-x-2">
-              <div className="h-8 w-8 bg-yellow-600 rounded-md flex items-center justify-center">
-                <span className="font-bold text-white">TB</span>
-              </div>
-              <span className="font-bold text-xl text-tech-blue">TechBridge</span>
-            </Link>
+          <Link to="/" className="flex items-center space-x-2">
+  <span className="font-bold text-xl text-tech-blue mr-10">TechBridge</span>
+</Link>
           </div>
           <nav className="hidden md:flex items-center gap-6 text-sm">
             <Link to="/" className="font-medium text-tech-blue transition-colors hover:text-yellow-600">
@@ -30,25 +27,29 @@ const Navbar = () => {
             <Link to="/programs" className="font-medium text-tech-gray transition-colors hover:text-yellow-600">
               Programs
             </Link>
-            <Link to="/community" className="font-medium text-tech-gray transition-colors hover:text-yellow-600">
-              Community
+            <Link to="/team" className="font-medium text-tech-gray transition-colors hover:text-yellow-600">
+              Team
             </Link>
-            <Link to="/events" className="font-medium text-tech-gray transition-colors hover:text-yellow-600">
-              Events
+            <Link to="https://docs.google.com/forms/d/e/1FAIpQLSekIPo5lawREN-tN-san_5Xdtyi9w3iX6_AKaEt0NnaXskYmA/viewform" className="font-medium text-tech-gray transition-colors hover:text-yellow-600">
+              Join
             </Link>
-            <Link to="/about" className="font-medium text-tech-gray transition-colors hover:text-yellow-600">
-              About
+            <Link to="/contact" className="font-medium text-tech-gray transition-colors hover:text-yellow-600">
+              Contact
             </Link>
           </nav>
         </div>
         <div className="flex items-center gap-2">
           <div className="hidden md:flex">
+          <a href = "/contact" className="flex items-center">
             <Button variant="outline" className="mr-2 border-yellow-600 text-yellow-600 hover:bg-yellow-50">
-              Log In
+              Contact
             </Button>
+            </a>
+            <a href = "https://docs.google.com/forms/d/e/1FAIpQLSekIPo5lawREN-tN-san_5Xdtyi9w3iX6_AKaEt0NnaXskYmA/viewform" className="flex items-center">
             <Button className="bg-yellow-600 hover:bg-yellow-700 text-white">
               Join Now
             </Button>
+            </a>
           </div>
           <button 
             className="flex md:hidden" 
@@ -80,9 +81,11 @@ const Navbar = () => {
               About
             </Link>
             <div className="pt-2 flex flex-col space-y-2">
+              <a href="/contact" className="font-medium text-tech-gray hover:text-yellow-600">
               <Button variant="outline" className="w-full border-yellow-600 text-yellow-600 hover:bg-yellow-50">
-                Log In
+                Contact
               </Button>
+              </a>
               <Button className="w-full bg-yellow-600 hover:bg-yellow-700 text-white">
                 Join Now
               </Button>
