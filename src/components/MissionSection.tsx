@@ -8,8 +8,8 @@ interface FeatureCardProps {
 }
 
 const FeatureCard = ({ icon, title, description }: FeatureCardProps) => (
-  <div className="bg-card shadow-md p-8 rounded-lg border border-border hover:border-yellow-300 transition-colors">
-    <div className="w-16 h-16 bg-yellow-100 rounded-full flex items-center justify-center mb-6 text-tech-blue">
+  <div className="bg-white shadow-md p-8 rounded-lg border-t-4 border-tech-blue hover:border-[#ecc719] transition-colors">
+    <div className="w-16 h-16 bg-tech-blue rounded-full flex items-center justify-center mb-6 text-[#ecc719]">
       {icon}
     </div>
     <h3 className="text-xl font-medium text-tech-blue mb-4">{title}</h3>
@@ -19,10 +19,10 @@ const FeatureCard = ({ icon, title, description }: FeatureCardProps) => (
 
 const MissionSection = () => {
   return (
-    <section className="py-16 md:py-24 bg-background">
+    <section className="py-16 md:py-24 bg-gradient-to-b from-yellow-50 to-white">
       <div className="container px-4 mx-auto">
         <div className="max-w-3xl mx-auto text-center mb-16">
-          <div className="inline-block bg-yellow-100 text-yellow-800 px-3 py-1 rounded-full text-sm font-medium mb-4">
+          <div className="inline-block bg-[#ecc719] text-tech-blue px-3 py-1 rounded-full text-sm font-medium mb-4">
             Our Purpose
           </div>
           <h2 className="text-3xl md:text-4xl font-alfa text-tech-blue mb-6">Our Mission</h2>
