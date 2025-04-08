@@ -1,4 +1,3 @@
-
 import type { Config } from "tailwindcss";
 
 export default {
@@ -41,11 +40,17 @@ export default {
           800: '#B39600',
           900: '#806B00',
         },
+        techblue: {
+          DEFAULT: '#0A1128',
+          light: '#1A2744',
+          dark: '#050914',
+        },
         tech: {
           blue: '#0A1128',
           darkblue: '#001845',
           navy: '#002855',
           gray: '#6B7280',
+          yellow: '#FFD60A',
         },
         primary: {
           DEFAULT: 'hsl(var(--primary))',
